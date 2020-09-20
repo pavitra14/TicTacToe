@@ -102,6 +102,7 @@ public class App
             }
         }
     }
+    
     public static void placePeice(int pos, String user)
     {
         char symbol = ' ';
@@ -191,6 +192,7 @@ public class App
                 break;
         }
     }
+    
     public static void wrongTurn()
     {
         sopl("Invalid Turn, please try again.");
